@@ -7,7 +7,7 @@ import pandas as pd
 from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score, confusion_matrix
+from sklearn.metrics import accuracy_score, confusion_matrix, recall_score, roc_auc_score
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
@@ -81,12 +81,17 @@ def train_model():
     model.fit(X_train, y_train)
 
     predictions = model.predict(X_test)
+    probabilities = model.predict_proba(X_test)[:, 1]
     accuracy = accuracy_score(y_test, predictions)
+    recall = recall_score(y_test, predictions)
+    roc_auc = roc_auc_score(y_test, probabilities)
     matrix = confusion_matrix(y_test, predictions)
 
     print("\nModel Evaluation")
     print("----------------")
     print("Accuracy:", round(accuracy, 4))
+    print("Recall  :", round(recall, 4))
+    print("ROC-AUC :", round(roc_auc, 4))
     print("\nConfusion Matrix:")
     print(matrix)
 
@@ -95,6 +100,8 @@ def train_model():
 
     metrics = {
         "accuracy": float(accuracy),
+        "recall": float(recall),
+        "roc_auc": float(roc_auc),
         "training_records": len(X_train),
         "testing_records": len(X_test)
     }
