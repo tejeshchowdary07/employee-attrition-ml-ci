@@ -1,4 +1,4 @@
-name: Employee Attrition ML CI
+name: Employee Attrition ML CI-CD
 
 on:
   push:
@@ -13,7 +13,7 @@ permissions:
   contents: read
 
 jobs:
-  train-and-test:
+  train-test-deliver:
     runs-on: ubuntu-latest
 
     steps:
@@ -28,7 +28,7 @@ jobs:
       - name: Upgrade pip
         run: python -m pip install --upgrade pip
 
-      - name: Install ML dependencies
+      - name: Install dependencies
         run: pip install -r requirements.txt
 
       - name: Train employee attrition model
@@ -38,14 +38,24 @@ jobs:
         run: python quality_gate.py
 
       - name: Run automated ML tests
-        run: python -m unittest discover -v
+        run: python -m unittest test_ml_pipeline -v
 
-      - name: Upload validated ML artifacts
+      - name: Run prediction application tests
+        run: python -m unittest test_app -v
+
+      - name: Prepare release candidate
+        run: |
+          mkdir -p release_candidate
+          cp app.py release_candidate/
+          cp attrition_model.pkl release_candidate/
+          cp metrics.json release_candidate/
+          cp requirements.txt release_candidate/
+          printf "Employee Attrition Prediction ML Application\nRun: python app.py\nEndpoint: POST /predict\n" > release_candidate/DEPLOYMENT.txt
+
+      - name: Upload release candidate
         uses: actions/upload-artifact@v7
         with:
-          name: employee-attrition-ml-artifacts
-          path: |
-            attrition_model.pkl
-            metrics.json
+          name: employee-attrition-ml-release
+          path: release_candidate/
           if-no-files-found: error
           retention-days: 7
