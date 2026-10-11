@@ -1,0 +1,501 @@
+EmployeeID,Age,MonthlyIncome,YearsAtCompany,YearsInCurrentRole,JobSatisfaction,WorkLifeBalance,JobInvolvement,PerformanceRating,Overtime,BusinessTravel,Department,MaritalStatus,EducationLevel,JobLevel,Attrition
+20001,36,12671.0,9.0,9,3.0,3,1,4,No,Rarely,Technology,Married,Bachelor,Entry,No
+20002,27,15909.0,16.0,0,3.0,1,3,4,Yes,Frequently,Technology,Married,Master,Mid,No
+20003,43,17755.0,6.0,4,1.0,3,4,3,Yes,Frequently,Sales,Married,Master,Entry,Yes
+20004,43,3166.0,3.0,0,4.0,3,4,3,No,Frequently,Finance,Married,High School,Senior,No
+20005,52,4119.0,5.0,5,2.0,2,2,4,No,Non-Travel,Technology,Single,Master,Mid,No
+20006,25,2651.0,19.0,5,2.0,4,1,3,Yes,Rarely,Technology,Single,High School,Senior,Yes
+20007,60,3353.0,7.0,2,2.0,2,1,4,No,Frequently,Technology,Single,High School,Mid,No
+20008,41,7876.0,13.0,8,3.0,3,1,4,Yes,Rarely,Technology,Divorced,High School,Entry,No
+20009,28,3799.0,9.0,3,1.0,4,4,4,No,Rarely,Sales,Divorced,Bachelor,Mid,Yes
+20010,22,7459.0,20.0,3,1.0,2,4,3,No,Frequently,HR,Married,Master,Mid,No
+20011,38,12972.0,,5,4.0,2,2,3,No,Non-Travel,Technology,Married,Bachelor,Manager,No
+20012,31,7526.0,4.0,4,1.0,3,4,4,No,Rarely,Sales,Single,High School,Senior,No
+20013,55,7004.0,20.0,4,2.0,1,2,4,No,Rarely,Sales,Single,Master,Manager,Yes
+20014,24,8009.0,5.0,3,1.0,1,2,3,No,Rarely,Sales,Single,Master,Mid,No
+20015,27,10123.0,18.0,8,4.0,1,4,3,Yes,Rarely,Finance,Married,Master,Mid,No
+20016,48,14984.0,2.0,2,2.0,3,4,3,No,Non-Travel,HR,Married,High School,Senior,No
+20017,59,13139.0,12.0,2,2.0,1,4,3,Yes,Rarely,HR,Married,High School,Entry,No
+20018,48,10463.0,18.0,6,4.0,2,2,3,No,Rarely,Technology,Married,High School,Entry,No
+20019,51,13778.0,,9,3.0,4,1,3,No,Rarely,HR,Divorced,Master,Manager,Yes
+20020,38,11286.0,15.0,1,3.0,2,1,3,No,Rarely,Sales,Married,High School,Senior,No
+20021,58,11780.0,20.0,5,3.0,1,2,3,Yes,Frequently,Finance,Single,Master,Mid,No
+20022,53,7167.0,14.0,9,3.0,4,2,3,Yes,Non-Travel,Sales,Married,High School,Senior,No
+20023,26,17071.0,10.0,8,1.0,2,3,3,No,Rarely,HR,Divorced,Master,Entry,No
+20024,59,8933.0,17.0,0,2.0,1,1,4,No,Frequently,HR,Married,High School,Entry,No
+20025,59,13429.0,13.0,7,1.0,4,4,3,No,Non-Travel,Sales,Single,High School,Entry,Yes
+20026,23,2732.0,7.0,7,4.0,3,4,3,No,Frequently,Technology,Married,Bachelor,Senior,No
+20027,34,9813.0,2.0,2,4.0,3,3,3,No,Rarely,Sales,Married,Master,Entry,No
+20028,48,10803.0,17.0,8,2.0,4,4,3,Yes,Frequently,Sales,Divorced,High School,Entry,No
+20029,40,11944.0,17.0,1,4.0,2,1,3,No,Non-Travel,Sales,Married,Bachelor,Senior,No
+20030,29,13138.0,7.0,1,2.0,1,1,3,No,Rarely,HR,Married,Master,Entry,Yes
+20031,48,9010.0,9.0,5,3.0,3,1,3,No,Non-Travel,Technology,Single,Master,Mid,No
+20032,44,14168.0,4.0,0,2.0,4,1,3,No,Rarely,Technology,Married,Bachelor,Entry,No
+20033,47,,2.0,2,1.0,2,1,4,No,Non-Travel,Sales,Married,Bachelor,Mid,Yes
+20034,48,10629.0,10.0,4,2.0,1,4,4,No,Non-Travel,Sales,Single,Master,Entry,No
+20035,36,15548.0,19.0,9,4.0,1,4,3,Yes,Rarely,Sales,Divorced,Bachelor,Entry,No
+20036,31,13512.0,1.0,0,3.0,4,3,3,No,Rarely,Technology,Married,Bachelor,Entry,No
+20037,23,5806.0,7.0,3,4.0,3,1,4,Yes,Frequently,Technology,Married,Bachelor,Mid,No
+20038,45,14555.0,19.0,5,3.0,2,4,4,No,Rarely,Finance,Single,Bachelor,Mid,No
+20039,29,7937.0,2.0,0,2.0,2,4,3,No,Rarely,Sales,Married,Master,Entry,No
+20040,21,15874.0,10.0,6,2.0,4,2,3,No,Non-Travel,Technology,Married,High School,Entry,Yes
+20041,33,17853.0,7.0,2,1.0,1,3,3,Yes,Frequently,Technology,Single,Bachelor,Entry,Yes
+20042,41,8639.0,4.0,4,4.0,3,3,3,No,Rarely,Technology,Married,Bachelor,Manager,No
+20043,36,4369.0,16.0,0,1.0,3,2,4,No,Rarely,Technology,Single,Master,Mid,Yes
+20044,47,6168.0,20.0,6,4.0,3,1,3,No,Rarely,Finance,Married,Master,Entry,No
+20045,57,16296.0,1.0,1,,1,4,3,No,Frequently,Technology,Single,Bachelor,Senior,No
+20046,57,3052.0,16.0,2,4.0,4,4,3,Yes,Rarely,Sales,Married,Bachelor,Entry,No
+20047,50,9890.0,12.0,4,3.0,3,3,3,No,Non-Travel,HR,Single,High School,Mid,No
+20048,48,4381.0,18.0,2,3.0,2,2,3,No,Rarely,Technology,Married,Bachelor,Mid,No
+20049,56,17570.0,17.0,0,3.0,4,2,3,No,Rarely,Technology,Married,Master,Mid,No
+20050,40,10701.0,19.0,5,3.0,4,4,4,No,Rarely,Technology,Divorced,Bachelor,Mid,No
+20051,34,17306.0,4.0,4,1.0,3,2,3,Yes,Rarely,Technology,Married,Bachelor,Mid,No
+20052,28,12332.0,10.0,8,3.0,4,4,3,No,Non-Travel,Technology,Divorced,Doctorate,Mid,No
+20053,42,2240.0,19.0,2,2.0,2,4,3,No,Rarely,HR,Married,Master,Entry,No
+20054,33,5247.0,9.0,1,4.0,2,3,4,Yes,Frequently,HR,Married,Bachelor,Mid,No
+20055,38,17323.0,0.0,0,4.0,2,3,4,Yes,Non-Travel,Finance,Single,Doctorate,Mid,Yes
+20056,46,14613.0,5.0,4,2.0,4,4,4,No,Rarely,Sales,Divorced,Master,Mid,No
+20057,41,12133.0,10.0,0,1.0,2,3,3,No,Rarely,Technology,Married,Master,Mid,No
+20058,46,16572.0,6.0,6,3.0,1,4,4,No,Rarely,Technology,Married,Master,Senior,No
+20059,24,9517.0,17.0,4,2.0,2,1,3,No,Frequently,HR,Single,High School,Mid,No
+20060,31,16349.0,4.0,3,3.0,3,3,4,Yes,Rarely,Sales,Married,Doctorate,Mid,No
+20061,56,4041.0,12.0,1,4.0,2,4,3,Yes,Frequently,Sales,Married,Master,Entry,No
+20062,54,17373.0,3.0,3,4.0,1,4,4,No,Frequently,Finance,Married,Master,Entry,No
+20063,34,5623.0,10.0,5,1.0,1,2,3,No,Non-Travel,Technology,Single,Bachelor,Entry,Yes
+20064,27,16006.0,19.0,8,1.0,1,3,4,No,Rarely,Sales,Single,High School,Entry,No
+20065,22,10666.0,1.0,1,2.0,4,1,3,No,Rarely,Finance,Single,Bachelor,Mid,Yes
+20066,56,12709.0,1.0,1,1.0,1,4,4,Yes,Rarely,Technology,Divorced,High School,Mid,No
+20067,35,7516.0,2.0,1,2.0,3,3,3,No,Rarely,HR,Single,Doctorate,Mid,No
+20068,45,4993.0,7.0,1,4.0,4,2,3,No,Frequently,Sales,Married,Doctorate,Entry,No
+20069,24,5706.0,7.0,0,4.0,3,4,4,No,Rarely,Finance,Married,Bachelor,Senior,No
+20070,31,4363.0,12.0,5,2.0,2,4,3,No,Rarely,Sales,Single,Bachelor,Senior,No
+20071,39,6990.0,9.0,0,4.0,3,4,3,No,Rarely,Technology,Married,Bachelor,Mid,No
+20072,22,3723.0,2.0,0,3.0,1,1,4,No,Rarely,Technology,Single,Doctorate,Entry,Yes
+20073,53,13625.0,19.0,4,4.0,4,4,4,Yes,Rarely,Finance,Married,Master,Entry,No
+20074,25,15674.0,12.0,4,2.0,1,3,4,Yes,Rarely,Sales,Married,Bachelor,Mid,No
+20075,23,5496.0,17.0,9,1.0,3,4,3,No,Rarely,Technology,Married,Bachelor,Senior,No
+20076,57,2830.0,15.0,4,3.0,4,4,3,Yes,Rarely,Sales,Married,Master,Mid,No
+20077,24,3172.0,6.0,1,3.0,2,1,3,No,Non-Travel,HR,Divorced,Bachelor,Mid,No
+20078,23,11418.0,4.0,1,1.0,2,4,3,Yes,Rarely,HR,Single,High School,Entry,Yes
+20079,35,15221.0,16.0,5,4.0,1,1,4,Yes,Rarely,Technology,Married,Master,Entry,No
+20080,44,16258.0,16.0,4,2.0,1,2,3,No,Non-Travel,Sales,Married,Bachelor,Mid,No
+20081,42,16456.0,10.0,5,3.0,4,1,3,No,Rarely,HR,Married,Bachelor,Mid,No
+20082,60,8326.0,4.0,4,3.0,3,3,3,Yes,Frequently,Technology,Single,Master,Mid,Yes
+20083,56,16094.0,13.0,0,2.0,3,2,3,Yes,Frequently,Technology,Single,Bachelor,Entry,No
+20084,46,9356.0,14.0,7,1.0,2,2,4,Yes,Rarely,HR,Married,Bachelor,Senior,No
+20085,35,9602.0,10.0,2,2.0,3,4,4,No,Rarely,Finance,Divorced,Master,Entry,No
+20086,45,2980.0,16.0,4,3.0,3,1,3,Yes,Non-Travel,Technology,Married,Bachelor,Entry,No
+20087,42,2351.0,,6,3.0,1,4,4,No,Non-Travel,Technology,Married,Master,Mid,No
+20088,27,4440.0,15.0,1,1.0,1,3,3,No,Non-Travel,Technology,Married,Bachelor,Entry,No
+20089,23,6200.0,5.0,3,1.0,1,4,4,Yes,Non-Travel,Sales,Single,High School,Entry,Yes
+20090,55,2405.0,16.0,0,2.0,2,2,3,No,Rarely,HR,Married,Master,Senior,Yes
+20091,45,6393.0,11.0,0,3.0,2,4,3,Yes,Non-Travel,Sales,Divorced,Bachelor,Senior,No
+20092,23,16405.0,19.0,6,3.0,2,3,4,No,Rarely,Technology,Married,Bachelor,Mid,No
+20093,59,5307.0,14.0,6,3.0,4,4,4,No,Non-Travel,Sales,Divorced,Bachelor,Entry,No
+20094,36,10481.0,4.0,4,2.0,3,4,3,No,Frequently,Technology,Divorced,Master,Manager,Yes
+20095,41,12837.0,20.0,0,2.0,3,1,3,Yes,Rarely,HR,Married,Bachelor,Senior,No
+20096,46,10625.0,15.0,9,1.0,4,3,3,Yes,Non-Travel,Technology,Single,Bachelor,Entry,No
+20097,26,9415.0,19.0,6,1.0,1,2,3,Yes,Rarely,Finance,Married,Master,Mid,No
+20098,23,14748.0,20.0,4,3.0,1,2,4,Yes,Rarely,Sales,Married,Bachelor,Senior,No
+20099,50,17928.0,1.0,1,4.0,2,1,3,No,Frequently,Technology,Single,Bachelor,Manager,No
+20100,53,5161.0,10.0,9,1.0,3,3,4,No,Rarely,Sales,Married,High School,Entry,No
+20101,39,4822.0,15.0,0,3.0,3,4,4,No,Frequently,Finance,Divorced,Bachelor,Mid,No
+20102,33,2602.0,16.0,8,1.0,3,1,4,Yes,Rarely,Technology,Married,Master,Mid,No
+20103,31,4573.0,15.0,6,2.0,2,1,3,No,Non-Travel,Technology,Married,Bachelor,Manager,No
+20104,49,15969.0,7.0,7,2.0,1,1,3,Yes,Rarely,Sales,Divorced,Bachelor,Mid,No
+20105,22,16359.0,5.0,4,3.0,2,2,3,No,Non-Travel,Finance,Divorced,Bachelor,Mid,Yes
+20106,22,4877.0,5.0,5,2.0,4,4,4,No,Rarely,Technology,Divorced,Bachelor,Mid,Yes
+20107,53,3655.0,1.0,1,1.0,1,3,3,No,Frequently,Finance,Single,Bachelor,Mid,No
+20108,42,17623.0,3.0,3,3.0,3,1,3,No,Frequently,Sales,Married,Master,Mid,No
+20109,27,11406.0,12.0,9,3.0,1,1,3,No,Frequently,Finance,Divorced,High School,Entry,Yes
+20110,43,7728.0,17.0,1,3.0,4,2,3,Yes,Rarely,Sales,Married,Master,Mid,No
+20111,42,3914.0,13.0,3,2.0,4,4,3,Yes,Rarely,Technology,Married,Bachelor,Entry,Yes
+20112,47,17706.0,19.0,0,2.0,3,3,3,Yes,Frequently,Technology,Divorced,Bachelor,Mid,No
+20113,39,5239.0,8.0,5,2.0,1,3,3,No,Rarely,Technology,Single,Bachelor,Mid,Yes
+20114,27,4078.0,9.0,6,4.0,3,4,3,No,Non-Travel,Sales,Married,Bachelor,Manager,No
+20115,29,16655.0,18.0,0,4.0,4,4,3,Yes,Rarely,Sales,Single,Bachelor,Mid,Yes
+20116,59,8465.0,18.0,7,1.0,2,2,3,No,Non-Travel,Technology,Divorced,Doctorate,Mid,No
+20117,53,2462.0,10.0,6,4.0,4,3,3,Yes,Rarely,HR,Married,Bachelor,Mid,No
+20118,36,14507.0,15.0,4,2.0,2,1,3,No,Non-Travel,Sales,Single,Bachelor,Mid,No
+20119,39,3864.0,15.0,4,3.0,4,3,3,No,Frequently,Sales,Married,Bachelor,Mid,No
+20120,49,8977.0,4.0,2,4.0,4,2,4,No,Non-Travel,Technology,Divorced,Bachelor,Mid,Yes
+20121,28,14412.0,4.0,4,4.0,4,1,3,No,Non-Travel,Technology,Married,Master,Mid,No
+20122,47,7513.0,7.0,5,1.0,4,3,4,Yes,Rarely,Technology,Single,High School,Entry,Yes
+20123,53,7421.0,14.0,1,,1,3,3,Yes,Frequently,Technology,Married,Bachelor,Mid,Yes
+20124,60,2687.0,6.0,2,2.0,3,3,3,No,Rarely,Technology,Single,Master,Mid,No
+20125,22,1996.0,14.0,1,2.0,2,4,4,No,Rarely,Technology,Single,High School,Mid,No
+20126,45,12932.0,20.0,4,4.0,2,2,3,No,Non-Travel,Finance,Single,Bachelor,Senior,No
+20127,22,13861.0,6.0,2,4.0,2,1,4,Yes,Frequently,Sales,Single,Bachelor,Senior,Yes
+20128,35,14661.0,14.0,9,1.0,1,2,3,No,Non-Travel,Finance,Married,Master,Entry,No
+20129,24,15887.0,7.0,1,3.0,3,3,3,Yes,Frequently,Finance,Single,Bachelor,Manager,No
+20130,60,10201.0,4.0,4,1.0,4,1,3,No,Rarely,HR,Divorced,Master,Entry,No
+20131,60,3443.0,6.0,6,4.0,2,3,3,No,Rarely,Sales,Married,Bachelor,Mid,No
+20132,40,10389.0,3.0,3,3.0,2,3,3,No,Rarely,Finance,Married,Master,Mid,No
+20133,30,3062.0,12.0,4,3.0,2,3,3,No,Rarely,Finance,Single,High School,Mid,No
+20134,23,5312.0,4.0,2,1.0,4,2,4,No,Non-Travel,Finance,Single,High School,Mid,Yes
+20135,47,8367.0,16.0,7,4.0,3,2,3,No,Rarely,Finance,Married,Master,Entry,No
+20136,42,5077.0,14.0,5,1.0,2,4,3,No,Frequently,Technology,Single,Bachelor,Mid,No
+20137,23,11091.0,15.0,2,2.0,2,4,4,No,Frequently,Sales,Married,Bachelor,Senior,No
+20138,44,16754.0,10.0,4,3.0,2,1,3,No,Non-Travel,Sales,Married,Master,Mid,No
+20139,42,6710.0,2.0,2,4.0,4,2,3,No,Rarely,Sales,Single,Bachelor,Mid,No
+20140,39,15340.0,1.0,1,1.0,3,4,4,No,Rarely,Technology,Single,Master,Mid,Yes
+20141,29,8860.0,16.0,1,1.0,4,2,4,Yes,Non-Travel,Finance,Divorced,High School,Senior,No
+20142,46,1902.0,14.0,1,1.0,2,3,3,No,Frequently,Finance,Married,Bachelor,Senior,No
+20143,50,16386.0,4.0,4,1.0,1,4,3,No,Rarely,Sales,Single,Bachelor,Entry,Yes
+20144,43,7534.0,7.0,7,2.0,2,3,3,No,Frequently,Sales,Married,Bachelor,Entry,No
+20145,34,17295.0,12.0,4,3.0,4,3,3,Yes,Frequently,HR,Single,Master,Mid,No
+20146,24,10670.0,8.0,6,2.0,3,3,3,No,Non-Travel,Finance,Divorced,Master,Mid,No
+20147,33,16750.0,7.0,0,2.0,1,3,3,No,Rarely,Technology,Married,Bachelor,Entry,No
+20148,32,4259.0,19.0,4,4.0,2,4,3,No,Rarely,Finance,Married,High School,Mid,No
+20149,33,2578.0,10.0,5,2.0,3,4,3,Yes,Rarely,HR,Married,High School,Mid,Yes
+20150,45,11456.0,3.0,3,2.0,3,3,4,No,Rarely,Technology,Married,Bachelor,Senior,No
+20151,36,3571.0,9.0,9,3.0,2,2,3,No,Rarely,HR,Divorced,High School,Entry,Yes
+20152,37,3280.0,20.0,8,3.0,1,4,4,No,Frequently,Sales,Married,Doctorate,Mid,No
+20153,46,17996.0,6.0,4,4.0,1,3,4,No,Rarely,Technology,Married,Bachelor,Manager,No
+20154,25,2948.0,16.0,2,1.0,3,3,4,No,Rarely,Sales,Single,Bachelor,Senior,No
+20155,55,13484.0,3.0,3,1.0,3,1,3,No,Frequently,Technology,Married,Master,Entry,Yes
+20156,44,12840.0,5.0,5,4.0,1,1,4,No,Non-Travel,Finance,Married,Bachelor,Mid,No
+20157,45,13953.0,19.0,1,3.0,1,4,3,No,Non-Travel,Sales,Married,Master,Entry,No
+20158,31,15614.0,9.0,7,2.0,4,2,3,No,Non-Travel,Sales,Married,Bachelor,Entry,No
+20159,34,12924.0,15.0,5,3.0,1,1,4,No,Frequently,Technology,Single,Master,Mid,No
+20160,52,5648.0,9.0,3,1.0,4,3,4,No,Non-Travel,Technology,Single,Master,Mid,No
+20161,47,11423.0,19.0,9,2.0,4,2,3,No,Frequently,HR,Married,High School,Senior,No
+20162,55,16271.0,18.0,1,3.0,3,3,3,Yes,Rarely,Finance,Single,Master,Entry,No
+20163,40,8329.0,18.0,6,1.0,4,3,3,Yes,Rarely,HR,Married,High School,Mid,No
+20164,54,15619.0,19.0,1,3.0,1,2,3,Yes,Rarely,Technology,Married,Master,Mid,No
+20165,57,17696.0,17.0,7,3.0,2,4,3,No,Non-Travel,Technology,Single,Doctorate,Mid,No
+20166,54,13339.0,10.0,7,4.0,1,2,4,No,Rarely,Technology,Single,Bachelor,Entry,No
+20167,25,11573.0,17.0,7,4.0,3,3,3,No,Rarely,Sales,Single,Bachelor,Senior,No
+20168,50,7883.0,0.0,0,3.0,4,3,3,No,Non-Travel,HR,Married,Master,Entry,No
+20169,53,10844.0,7.0,4,2.0,3,4,3,No,Rarely,Sales,Married,Doctorate,Entry,Yes
+20170,26,16206.0,20.0,6,4.0,4,2,3,No,Frequently,Sales,Married,High School,Senior,No
+20171,48,15573.0,10.0,4,1.0,2,4,3,No,Rarely,Technology,Single,Master,Entry,No
+20172,27,17221.0,19.0,2,2.0,3,4,3,No,Frequently,Sales,Divorced,Master,Mid,No
+20173,30,6154.0,19.0,5,2.0,2,2,3,No,Rarely,Technology,Single,Master,Entry,No
+20174,47,8851.0,20.0,8,4.0,4,2,4,No,Rarely,Technology,Married,Master,Mid,No
+20175,36,17477.0,3.0,3,2.0,4,4,4,Yes,Rarely,Technology,Married,Bachelor,Entry,No
+20176,56,3110.0,15.0,7,1.0,2,1,4,No,Rarely,Sales,Married,Bachelor,Entry,Yes
+20177,55,15436.0,2.0,2,4.0,3,4,4,No,Non-Travel,Technology,Married,Bachelor,Entry,No
+20178,33,10186.0,7.0,1,4.0,2,3,3,No,Non-Travel,Sales,Single,Bachelor,Mid,No
+20179,34,10553.0,4.0,1,4.0,3,3,4,No,Frequently,Sales,Married,Bachelor,Mid,No
+20180,42,7083.0,0.0,0,4.0,4,3,4,Yes,Non-Travel,Technology,Single,Bachelor,Mid,No
+20181,52,11336.0,2.0,1,4.0,2,3,3,No,Rarely,Technology,Single,Bachelor,Mid,No
+20182,29,16926.0,1.0,1,4.0,2,3,3,Yes,Non-Travel,Sales,Single,Master,Senior,Yes
+20183,41,4131.0,9.0,9,4.0,4,2,4,Yes,Rarely,Technology,Married,Bachelor,Senior,No
+20184,31,8145.0,14.0,7,2.0,3,2,3,No,Rarely,Technology,Single,Bachelor,Senior,No
+20185,47,1843.0,3.0,3,3.0,3,4,4,No,Rarely,Technology,Single,Bachelor,Mid,No
+20186,59,10817.0,7.0,0,3.0,4,2,3,Yes,Rarely,Finance,Single,Bachelor,Entry,No
+20187,48,8420.0,10.0,9,2.0,3,2,3,No,Rarely,HR,Single,Bachelor,Mid,No
+20188,56,6587.0,13.0,3,2.0,1,1,4,No,Non-Travel,Sales,Single,Master,Entry,No
+20189,38,4298.0,6.0,6,2.0,3,1,3,No,Frequently,Sales,Single,High School,Manager,No
+20190,21,4503.0,14.0,7,1.0,1,2,4,No,Non-Travel,HR,Married,Bachelor,Mid,No
+20191,21,17973.0,5.0,3,2.0,1,2,3,No,Non-Travel,Technology,Married,Master,Senior,No
+20192,50,2691.0,15.0,1,4.0,3,3,3,No,Rarely,HR,Single,Bachelor,Mid,No
+20193,40,12009.0,11.0,9,3.0,4,4,4,Yes,Non-Travel,Sales,Single,Bachelor,Entry,No
+20194,25,,9.0,2,2.0,2,3,4,No,Non-Travel,Technology,Married,Bachelor,Mid,No
+20195,59,13057.0,17.0,1,2.0,4,1,3,Yes,Rarely,Sales,Divorced,Master,Senior,No
+20196,21,2589.0,2.0,2,3.0,2,2,4,No,Rarely,Sales,Single,Bachelor,Senior,No
+20197,37,2278.0,1.0,1,4.0,1,2,4,No,Rarely,Finance,Divorced,High School,Manager,No
+20198,45,11475.0,10.0,6,1.0,4,2,4,No,Rarely,Finance,Divorced,Bachelor,Senior,No
+20199,24,8124.0,20.0,7,4.0,2,4,3,No,Non-Travel,Finance,Single,Bachelor,Senior,No
+20200,27,14107.0,3.0,0,3.0,3,2,3,No,Frequently,Technology,Married,Master,Senior,No
+20201,44,4923.0,13.0,7,1.0,3,1,3,No,Non-Travel,Sales,Married,High School,Mid,No
+20202,22,10844.0,12.0,3,2.0,1,4,3,Yes,Frequently,Technology,Married,Bachelor,Mid,No
+20203,30,3071.0,17.0,2,4.0,1,4,3,No,Rarely,Technology,Single,Bachelor,Entry,No
+20204,31,10967.0,11.0,5,1.0,4,3,3,No,Rarely,Sales,Married,Doctorate,Entry,No
+20205,51,3754.0,3.0,0,3.0,2,4,4,Yes,Rarely,HR,Divorced,Bachelor,Entry,Yes
+20206,48,17949.0,20.0,3,1.0,1,3,4,No,Rarely,HR,Married,Doctorate,Entry,No
+20207,35,14643.0,13.0,6,3.0,2,2,3,Yes,Rarely,Finance,Single,Master,Entry,No
+20208,60,6331.0,1.0,1,2.0,2,2,3,No,Non-Travel,Technology,Married,Bachelor,Entry,No
+20209,41,13373.0,14.0,2,2.0,3,1,4,No,Rarely,Sales,Single,Master,Mid,No
+20210,53,12547.0,9.0,9,3.0,1,3,4,No,Rarely,Sales,Married,Bachelor,Senior,No
+20211,59,12964.0,20.0,1,,4,1,3,Yes,Rarely,Finance,Divorced,Master,Mid,No
+20212,58,9873.0,7.0,7,3.0,2,3,3,Yes,Frequently,HR,Divorced,Master,Manager,No
+20213,28,8588.0,18.0,1,4.0,4,2,4,No,Rarely,Sales,Divorced,Bachelor,Senior,No
+20214,59,6746.0,12.0,0,1.0,2,2,4,Yes,Non-Travel,Sales,Single,Bachelor,Senior,Yes
+20215,50,12395.0,7.0,2,4.0,1,4,4,No,Rarely,Sales,Married,Bachelor,Entry,No
+20216,26,11906.0,18.0,5,1.0,4,1,4,Yes,Rarely,HR,Married,Bachelor,Manager,Yes
+20217,48,6765.0,20.0,5,4.0,2,2,3,No,Rarely,Sales,Married,Bachelor,Mid,No
+20218,29,11513.0,15.0,7,2.0,3,1,3,No,Non-Travel,HR,Married,Bachelor,Mid,No
+20219,55,7907.0,20.0,0,3.0,4,3,4,No,Rarely,HR,Divorced,Master,Senior,No
+20220,49,4031.0,18.0,8,1.0,4,3,3,Yes,Rarely,HR,Single,Master,Mid,No
+20221,57,17594.0,9.0,5,3.0,4,3,3,No,Non-Travel,Technology,Married,Master,Mid,No
+20222,46,6230.0,9.0,0,2.0,4,3,3,Yes,Rarely,HR,Single,Bachelor,Mid,No
+20223,54,11645.0,5.0,0,4.0,1,2,3,Yes,Rarely,Finance,Married,Master,Senior,No
+20224,30,16480.0,12.0,8,1.0,2,1,3,Yes,Rarely,Sales,Married,Master,Manager,No
+20225,36,13757.0,8.0,5,1.0,3,2,3,No,Non-Travel,HR,Single,High School,Entry,No
+20226,47,16131.0,5.0,1,1.0,4,1,3,No,Frequently,Technology,Single,Bachelor,Senior,Yes
+20227,49,6329.0,15.0,3,4.0,1,3,3,Yes,Non-Travel,Technology,Married,Doctorate,Entry,No
+20228,42,15209.0,6.0,6,2.0,1,1,3,Yes,Non-Travel,Technology,Married,Bachelor,Entry,No
+20229,26,13554.0,13.0,3,3.0,1,3,3,No,Non-Travel,Technology,Married,High School,Entry,Yes
+20230,58,14544.0,2.0,2,2.0,2,4,3,Yes,Rarely,Technology,Married,Bachelor,Senior,No
+20231,28,11174.0,17.0,7,3.0,3,1,4,Yes,Non-Travel,Technology,Married,Master,Manager,No
+20232,26,8412.0,12.0,6,4.0,1,1,3,No,Rarely,Technology,Divorced,Bachelor,Entry,No
+20233,30,11695.0,10.0,8,1.0,3,2,3,No,Frequently,Sales,Married,Master,Senior,No
+20234,29,6276.0,2.0,2,1.0,2,1,3,No,Rarely,Finance,Married,Master,Entry,Yes
+20235,22,4871.0,2.0,2,3.0,3,4,3,No,Rarely,Technology,Single,Master,Mid,No
+20236,46,4927.0,1.0,1,2.0,1,3,3,No,Non-Travel,Sales,Married,Master,Manager,No
+20237,21,12113.0,16.0,7,3.0,1,3,3,Yes,Rarely,Technology,Single,Bachelor,Mid,No
+20238,30,15515.0,5.0,3,4.0,4,2,4,Yes,Non-Travel,Technology,Divorced,Doctorate,Mid,No
+20239,47,2912.0,2.0,2,4.0,2,4,4,No,Rarely,Technology,Married,Master,Mid,No
+20240,27,17108.0,16.0,3,1.0,2,4,3,Yes,Rarely,Sales,Married,Doctorate,Mid,No
+20241,39,17572.0,18.0,9,4.0,3,3,3,No,Rarely,HR,Married,Bachelor,Senior,No
+20242,60,4960.0,8.0,6,1.0,3,1,3,No,Rarely,Sales,Married,Bachelor,Mid,No
+20243,27,1959.0,4.0,0,3.0,1,1,3,No,Frequently,Finance,Married,Master,Mid,No
+20244,56,3404.0,1.0,0,2.0,3,1,3,No,Rarely,Sales,Single,Doctorate,Senior,Yes
+20245,41,12870.0,7.0,4,1.0,1,3,3,Yes,Non-Travel,Technology,Single,Doctorate,Senior,Yes
+20246,43,15958.0,2.0,2,2.0,4,2,4,No,Rarely,HR,Married,Bachelor,Mid,No
+20247,41,5923.0,1.0,1,4.0,3,2,3,No,Non-Travel,Technology,Single,Master,Mid,No
+20248,31,11198.0,0.0,0,1.0,4,2,3,No,Rarely,Technology,Married,Master,Entry,No
+20249,52,5352.0,17.0,3,3.0,1,3,3,No,Non-Travel,Sales,Married,Bachelor,Entry,No
+20250,49,2825.0,9.0,4,3.0,3,3,3,No,Frequently,Technology,Single,Bachelor,Entry,No
+20251,24,7248.0,9.0,5,2.0,3,4,3,No,Rarely,Sales,Divorced,Bachelor,Mid,Yes
+20252,28,10234.0,12.0,7,2.0,3,2,3,No,Rarely,Finance,Single,Bachelor,Senior,No
+20253,33,6081.0,4.0,4,1.0,1,3,3,No,Rarely,Sales,Married,Bachelor,Entry,No
+20254,60,11884.0,7.0,5,3.0,2,2,3,No,Rarely,Sales,Married,Master,Senior,No
+20255,22,6259.0,9.0,7,4.0,1,4,3,Yes,Rarely,Technology,Married,Master,Senior,No
+20256,31,14053.0,13.0,9,4.0,3,1,3,Yes,Frequently,Sales,Divorced,Bachelor,Senior,No
+20257,41,6398.0,9.0,2,4.0,2,1,3,Yes,Rarely,Sales,Single,Bachelor,Mid,No
+20258,22,5012.0,13.0,6,4.0,4,3,3,No,Non-Travel,Sales,Single,Master,Entry,No
+20259,55,11361.0,13.0,8,3.0,3,1,3,Yes,Rarely,Technology,Married,Master,Entry,No
+20260,50,15344.0,9.0,8,2.0,1,2,3,No,Frequently,Sales,Single,Master,Entry,Yes
+20261,35,10521.0,20.0,9,4.0,1,1,3,No,Rarely,Finance,Married,Bachelor,Mid,Yes
+20262,45,8088.0,3.0,3,3.0,4,2,3,No,Rarely,Sales,Divorced,Master,Mid,No
+20263,28,16400.0,13.0,4,4.0,3,1,4,No,Non-Travel,Sales,Single,Bachelor,Mid,No
+20264,42,4561.0,12.0,9,1.0,1,2,4,No,Rarely,Sales,Divorced,High School,Mid,No
+20265,60,11176.0,10.0,9,3.0,3,3,3,Yes,Rarely,Technology,Single,High School,Mid,Yes
+20266,47,3110.0,10.0,5,4.0,1,2,4,No,Rarely,HR,Married,Master,Entry,No
+20267,23,14826.0,15.0,3,1.0,3,1,4,No,Rarely,Sales,Single,Bachelor,Mid,No
+20268,32,5677.0,18.0,0,3.0,3,2,3,Yes,Rarely,Finance,Married,High School,Entry,No
+20269,40,9342.0,17.0,5,1.0,4,3,4,Yes,Non-Travel,Sales,Married,Bachelor,Mid,No
+20270,50,6335.0,10.0,6,4.0,4,3,3,Yes,Rarely,Sales,Married,Bachelor,Senior,No
+20271,54,8003.0,13.0,1,3.0,3,3,3,No,Rarely,Technology,Single,Bachelor,Entry,No
+20272,58,3747.0,17.0,4,4.0,2,2,4,No,Frequently,Sales,Single,Doctorate,Senior,No
+20273,53,4874.0,12.0,2,3.0,4,1,3,No,Rarely,Technology,Married,Bachelor,Mid,No
+20274,55,17163.0,3.0,3,1.0,1,3,3,No,Rarely,Technology,Divorced,Bachelor,Senior,No
+20275,58,12428.0,6.0,6,3.0,1,1,3,No,Rarely,Technology,Single,Bachelor,Manager,No
+20276,38,13797.0,12.0,4,1.0,2,2,4,No,Rarely,Finance,Married,Master,Mid,No
+20277,32,1957.0,4.0,3,2.0,3,3,4,No,Frequently,Sales,Divorced,Bachelor,Mid,Yes
+20278,36,7060.0,17.0,8,1.0,2,2,4,No,Frequently,Finance,Married,Master,Entry,Yes
+20279,22,12560.0,10.0,2,4.0,2,4,3,No,Rarely,Technology,Married,High School,Mid,No
+20280,60,15607.0,2.0,0,4.0,1,4,3,Yes,Frequently,Finance,Married,Bachelor,Mid,Yes
+20281,43,12880.0,15.0,3,4.0,2,1,3,No,Frequently,Finance,Married,High School,Senior,No
+20282,49,11176.0,17.0,3,2.0,2,2,4,Yes,Rarely,Technology,Married,Bachelor,Mid,No
+20283,55,12291.0,6.0,6,1.0,3,2,3,No,Frequently,Technology,Married,Bachelor,Mid,No
+20284,49,16450.0,7.0,5,4.0,4,4,3,Yes,Non-Travel,Technology,Married,Master,Mid,No
+20285,44,4413.0,0.0,0,4.0,2,1,3,No,Rarely,Sales,Single,Master,Senior,No
+20286,42,13722.0,1.0,1,1.0,2,1,3,No,Non-Travel,Sales,Married,Bachelor,Entry,Yes
+20287,48,15194.0,4.0,4,2.0,1,4,4,No,Rarely,Sales,Single,Master,Mid,Yes
+20288,25,8692.0,14.0,2,4.0,4,3,4,No,Non-Travel,Finance,Married,Bachelor,Mid,No
+20289,43,,7.0,5,4.0,1,2,3,No,Non-Travel,Technology,Single,Bachelor,Mid,No
+20290,33,9700.0,14.0,0,3.0,3,2,3,No,Rarely,Sales,Single,Bachelor,Entry,Yes
+20291,51,,,1,2.0,1,1,3,No,Non-Travel,Technology,Married,Master,Senior,No
+20292,34,9870.0,16.0,8,2.0,3,4,3,No,Rarely,Technology,Single,Bachelor,Mid,No
+20293,43,16619.0,5.0,5,3.0,3,4,3,No,Rarely,Sales,Single,High School,Entry,No
+20294,21,9996.0,8.0,6,4.0,2,3,4,No,Rarely,Sales,Married,Master,Entry,No
+20295,24,13812.0,0.0,0,2.0,2,4,3,Yes,Rarely,Finance,Married,Bachelor,Senior,No
+20296,25,10072.0,0.0,0,3.0,1,1,3,No,Rarely,Sales,Single,High School,Senior,No
+20297,57,14358.0,5.0,4,2.0,3,2,3,No,Non-Travel,Sales,Married,Master,Entry,No
+20298,29,12500.0,14.0,7,2.0,1,1,3,No,Frequently,Sales,Single,Master,Entry,No
+20299,26,17013.0,4.0,3,4.0,4,1,3,No,Rarely,Technology,Married,Master,Manager,No
+20300,51,11818.0,2.0,2,4.0,3,2,3,Yes,Rarely,HR,Divorced,Bachelor,Mid,No
+20301,24,11377.0,8.0,3,1.0,1,4,3,Yes,Non-Travel,Sales,Married,Master,Entry,No
+20302,45,11438.0,18.0,2,4.0,4,3,4,No,Frequently,HR,Married,High School,Senior,No
+20303,26,5861.0,0.0,0,3.0,2,3,3,No,Frequently,Sales,Married,Bachelor,Mid,No
+20304,39,2117.0,17.0,5,3.0,3,4,4,No,Rarely,Technology,Single,Bachelor,Senior,Yes
+20305,21,17956.0,11.0,4,4.0,1,3,3,No,Non-Travel,Finance,Married,Master,Senior,No
+20306,32,8827.0,0.0,0,2.0,2,4,3,No,Frequently,Technology,Single,Master,Senior,No
+20307,36,7403.0,7.0,2,4.0,2,3,4,Yes,Frequently,Sales,Single,Master,Senior,No
+20308,50,8792.0,1.0,1,2.0,4,4,3,No,Rarely,Sales,Married,High School,Mid,No
+20309,35,14674.0,15.0,5,1.0,4,4,4,Yes,Rarely,Technology,Married,Bachelor,Entry,No
+20310,52,9353.0,16.0,6,1.0,2,2,4,No,Frequently,Sales,Single,Bachelor,Entry,No
+20311,46,12883.0,14.0,6,3.0,1,2,4,Yes,Rarely,Technology,Married,High School,Senior,No
+20312,28,12431.0,3.0,3,3.0,2,1,3,No,Non-Travel,Technology,Married,Doctorate,Entry,No
+20313,49,5130.0,6.0,3,2.0,4,2,3,No,Rarely,Sales,Single,Bachelor,Senior,No
+20314,60,9450.0,10.0,4,2.0,3,1,3,No,Rarely,Finance,Single,Master,Senior,No
+20315,49,12450.0,20.0,1,3.0,2,4,4,No,Rarely,HR,Divorced,Master,Entry,No
+20316,23,4142.0,5.0,0,2.0,4,3,3,No,Rarely,Sales,Single,Master,Entry,Yes
+20317,32,2473.0,17.0,4,4.0,1,3,3,Yes,Rarely,Sales,Single,Bachelor,Entry,No
+20318,45,14290.0,9.0,7,1.0,4,1,4,No,Rarely,Sales,Single,Master,Mid,No
+20319,36,10162.0,7.0,7,2.0,4,3,3,No,Frequently,Technology,Divorced,Master,Entry,No
+20320,22,11798.0,13.0,9,2.0,3,3,3,Yes,Non-Travel,Sales,Single,Master,Entry,Yes
+20321,22,8877.0,7.0,0,1.0,4,4,3,Yes,Rarely,HR,Married,Bachelor,Mid,No
+20322,26,6316.0,3.0,3,2.0,3,4,4,No,Rarely,Sales,Married,Bachelor,Mid,No
+20323,48,8564.0,14.0,2,4.0,4,4,4,Yes,Rarely,Sales,Married,Bachelor,Entry,No
+20324,28,9337.0,20.0,8,4.0,3,4,3,No,Rarely,Sales,Married,Bachelor,Mid,No
+20325,29,10311.0,18.0,0,,1,3,4,No,Non-Travel,Finance,Divorced,Bachelor,Mid,No
+20326,21,9621.0,9.0,4,4.0,1,3,3,Yes,Non-Travel,Sales,Single,High School,Entry,Yes
+20327,42,14281.0,10.0,5,3.0,1,1,3,No,Non-Travel,Technology,Married,Bachelor,Mid,Yes
+20328,31,14777.0,13.0,7,3.0,3,1,3,Yes,Non-Travel,Technology,Married,Master,Mid,No
+20329,55,17125.0,8.0,2,2.0,1,1,3,Yes,Non-Travel,Finance,Married,Master,Entry,Yes
+20330,30,5609.0,13.0,0,3.0,1,3,3,No,Rarely,HR,Married,High School,Mid,No
+20331,37,15686.0,16.0,2,4.0,1,2,4,No,Rarely,Technology,Married,Doctorate,Entry,No
+20332,29,3103.0,7.0,7,2.0,4,4,3,No,Rarely,Sales,Single,Bachelor,Mid,No
+20333,21,3448.0,1.0,1,3.0,3,1,3,No,Frequently,Finance,Single,Master,Mid,Yes
+20334,35,11525.0,15.0,7,4.0,1,2,3,No,Frequently,Sales,Married,Master,Senior,No
+20335,37,7765.0,19.0,7,1.0,3,2,4,No,Non-Travel,Sales,Married,Master,Entry,No
+20336,37,9836.0,16.0,5,4.0,1,3,3,No,Rarely,Technology,Single,Master,Mid,No
+20337,46,11408.0,,0,4.0,4,3,3,No,Rarely,Technology,Married,Bachelor,Mid,No
+20338,52,3392.0,0.0,0,2.0,4,2,3,No,Rarely,HR,Married,Bachelor,Senior,No
+20339,44,17069.0,9.0,6,3.0,4,1,4,No,Rarely,Technology,Single,Bachelor,Mid,No
+20340,39,3535.0,9.0,5,4.0,4,2,4,Yes,Rarely,Sales,Married,Bachelor,Mid,No
+20341,26,14500.0,5.0,1,3.0,2,1,3,Yes,Non-Travel,Finance,Married,Master,Entry,Yes
+20342,26,2926.0,19.0,2,1.0,3,3,4,No,Frequently,Technology,Married,Master,Senior,No
+20343,57,7368.0,4.0,4,1.0,2,2,3,No,Rarely,Technology,Single,Master,Mid,No
+20344,37,15551.0,18.0,3,2.0,2,1,4,Yes,Rarely,Technology,Divorced,High School,Mid,No
+20345,51,11154.0,10.0,9,2.0,4,4,3,Yes,Rarely,Sales,Married,High School,Mid,No
+20346,30,9899.0,12.0,9,3.0,1,4,4,No,Rarely,Technology,Married,Bachelor,Senior,No
+20347,41,5181.0,14.0,4,2.0,3,2,3,No,Rarely,Technology,Married,Bachelor,Manager,No
+20348,37,7135.0,14.0,5,4.0,1,4,3,No,Non-Travel,Sales,Single,Bachelor,Mid,No
+20349,21,2031.0,20.0,3,3.0,2,3,4,No,Rarely,Technology,Single,Bachelor,Entry,Yes
+20350,25,6048.0,3.0,2,2.0,2,2,3,No,Rarely,Technology,Married,Bachelor,Entry,Yes
+20351,60,11180.0,17.0,3,4.0,3,1,3,No,Rarely,Sales,Single,Bachelor,Mid,Yes
+20352,41,7302.0,2.0,2,1.0,4,2,4,No,Rarely,HR,Single,Master,Senior,No
+20353,30,11593.0,5.0,5,1.0,4,3,3,No,Non-Travel,Finance,Single,Master,Mid,No
+20354,60,5037.0,18.0,0,2.0,4,1,3,Yes,Non-Travel,Technology,Married,Bachelor,Mid,No
+20355,57,3559.0,15.0,7,2.0,4,2,3,No,Rarely,Finance,Single,Master,Mid,No
+20356,59,4609.0,7.0,6,1.0,3,1,3,No,Non-Travel,HR,Married,Master,Mid,No
+20357,55,6892.0,0.0,0,4.0,2,1,3,No,Non-Travel,Sales,Single,Master,Entry,No
+20358,37,8216.0,4.0,4,2.0,3,1,3,Yes,Non-Travel,Sales,Married,High School,Entry,Yes
+20359,37,14854.0,17.0,0,1.0,1,3,3,No,Non-Travel,HR,Divorced,Master,Manager,No
+20360,48,13577.0,2.0,2,2.0,1,2,4,No,Frequently,Technology,Single,Bachelor,Mid,No
+20361,34,15812.0,8.0,8,2.0,4,4,4,Yes,Non-Travel,Finance,Divorced,Master,Senior,No
+20362,37,4628.0,8.0,0,1.0,2,2,3,No,Frequently,Technology,Single,Doctorate,Entry,No
+20363,52,8857.0,20.0,4,1.0,1,2,3,No,Rarely,Sales,Married,Bachelor,Mid,No
+20364,43,6620.0,15.0,1,3.0,4,3,3,No,Rarely,Sales,Single,Bachelor,Senior,No
+20365,23,8405.0,17.0,3,1.0,1,2,3,No,Rarely,Technology,Married,Master,Mid,No
+20366,49,14435.0,16.0,9,4.0,1,1,4,Yes,Rarely,Technology,Single,Master,Senior,Yes
+20367,52,12837.0,5.0,5,4.0,2,1,3,No,Rarely,Technology,Married,Bachelor,Mid,No
+20368,23,2293.0,17.0,2,1.0,3,4,3,No,Rarely,Technology,Married,Bachelor,Entry,No
+20369,52,13034.0,7.0,7,2.0,3,2,3,No,Non-Travel,Finance,Single,High School,Senior,No
+20370,26,6043.0,6.0,4,4.0,4,3,4,Yes,Non-Travel,Technology,Single,Master,Mid,Yes
+20371,52,12633.0,1.0,1,2.0,1,4,4,Yes,Rarely,Sales,Single,Bachelor,Mid,No
+20372,59,4681.0,14.0,6,,2,2,4,No,Frequently,Sales,Married,Master,Mid,No
+20373,52,14377.0,13.0,1,3.0,1,3,4,No,Frequently,Technology,Single,Bachelor,Mid,No
+20374,22,5218.0,8.0,5,2.0,4,3,3,No,Rarely,Sales,Married,Bachelor,Entry,No
+20375,34,10277.0,14.0,1,4.0,2,2,3,No,Rarely,Finance,Divorced,Bachelor,Mid,No
+20376,41,3137.0,3.0,2,3.0,3,1,3,No,Non-Travel,Sales,Married,Bachelor,Entry,No
+20377,54,3304.0,0.0,0,3.0,2,3,4,No,Frequently,HR,Married,Master,Manager,No
+20378,36,15618.0,18.0,5,3.0,3,2,3,No,Frequently,HR,Married,Master,Entry,Yes
+20379,59,1811.0,1.0,1,4.0,1,4,3,Yes,Rarely,Sales,Divorced,Bachelor,Entry,Yes
+20380,45,2500.0,13.0,4,1.0,2,3,3,No,Rarely,Technology,Married,Bachelor,Senior,No
+20381,24,9570.0,17.0,3,4.0,2,1,4,No,Frequently,Finance,Married,Bachelor,Mid,No
+20382,25,4964.0,13.0,8,4.0,1,2,3,Yes,Rarely,HR,Married,High School,Entry,No
+20383,41,2614.0,11.0,2,3.0,4,3,3,Yes,Rarely,Sales,Married,Master,Entry,No
+20384,41,7101.0,0.0,0,1.0,4,2,3,No,Frequently,Finance,Single,Master,Mid,No
+20385,56,6768.0,3.0,3,1.0,2,2,3,No,Rarely,Technology,Single,Bachelor,Entry,Yes
+20386,54,17047.0,11.0,2,2.0,4,3,3,No,Non-Travel,Technology,Married,High School,Mid,No
+20387,23,1853.0,5.0,5,1.0,1,2,4,Yes,Rarely,Finance,Married,Bachelor,Entry,Yes
+20388,58,4902.0,19.0,3,4.0,3,4,3,No,Rarely,HR,Married,Doctorate,Senior,No
+20389,27,14692.0,6.0,6,1.0,2,2,3,Yes,Rarely,Technology,Divorced,Doctorate,Mid,Yes
+20390,51,13703.0,10.0,6,4.0,4,2,4,No,Non-Travel,Sales,Single,Bachelor,Entry,No
+20391,31,14750.0,2.0,1,3.0,1,4,4,No,Non-Travel,Technology,Divorced,Bachelor,Mid,Yes
+20392,57,7556.0,8.0,8,3.0,1,4,3,No,Frequently,Technology,Single,High School,Entry,No
+20393,48,10523.0,12.0,5,4.0,1,2,3,No,Frequently,HR,Married,High School,Entry,No
+20394,24,12652.0,14.0,8,4.0,2,1,3,No,Rarely,Sales,Single,Bachelor,Entry,No
+20395,50,9055.0,17.0,5,4.0,2,3,3,No,Rarely,Technology,Married,High School,Entry,No
+20396,53,9857.0,7.0,4,3.0,1,2,3,No,Non-Travel,HR,Married,Master,Entry,No
+20397,48,16423.0,5.0,2,1.0,2,4,4,No,Rarely,Technology,Married,Doctorate,Mid,No
+20398,37,4063.0,16.0,5,2.0,2,1,4,No,Non-Travel,Technology,Divorced,Master,Entry,No
+20399,23,17593.0,20.0,5,2.0,3,3,3,Yes,Rarely,Sales,Married,Master,Mid,No
+20400,24,13567.0,19.0,9,3.0,2,3,4,Yes,Rarely,Technology,Single,Master,Manager,No
+20401,32,13056.0,13.0,6,4.0,4,4,4,No,Frequently,Finance,Married,Doctorate,Mid,No
+20402,51,6744.0,14.0,5,2.0,3,1,3,Yes,Frequently,Finance,Divorced,Bachelor,Mid,No
+20403,48,13978.0,14.0,5,3.0,3,4,3,No,Rarely,HR,Single,Master,Manager,No
+20404,30,11783.0,14.0,8,4.0,1,3,3,No,Non-Travel,Technology,Married,Bachelor,Mid,No
+20405,36,2302.0,11.0,8,4.0,1,1,4,No,Rarely,Technology,Single,Master,Mid,No
+20406,43,14682.0,18.0,5,1.0,4,3,4,Yes,Rarely,Finance,Married,Bachelor,Mid,No
+20407,44,3590.0,12.0,7,4.0,1,3,3,Yes,Rarely,HR,Married,Master,Senior,No
+20408,50,7201.0,19.0,1,3.0,2,3,3,No,Rarely,Sales,Married,Bachelor,Entry,Yes
+20409,42,8531.0,6.0,4,4.0,2,3,4,No,Frequently,Technology,Single,High School,Mid,No
+20410,34,17996.0,14.0,7,2.0,4,3,3,No,Rarely,Sales,Married,Bachelor,Entry,No
+20411,54,14505.0,2.0,2,4.0,4,1,4,No,Non-Travel,Technology,Married,Master,Mid,No
+20412,55,1892.0,14.0,3,2.0,3,2,3,No,Rarely,Finance,Single,Bachelor,Mid,No
+20413,46,14124.0,13.0,8,1.0,1,4,4,No,Rarely,Finance,Married,Bachelor,Mid,No
+20414,47,7986.0,20.0,1,3.0,2,2,3,No,Rarely,Finance,Married,Master,Senior,No
+20415,40,11288.0,14.0,7,2.0,4,3,3,No,Rarely,Technology,Divorced,High School,Senior,No
+20416,60,6113.0,8.0,0,3.0,4,1,3,No,Non-Travel,Sales,Married,Bachelor,Mid,No
+20417,44,17467.0,0.0,0,1.0,4,2,3,No,Rarely,Technology,Married,Bachelor,Mid,No
+20418,34,11938.0,12.0,8,1.0,3,3,4,No,Rarely,Technology,Married,Master,Mid,No
+20419,48,10459.0,0.0,0,3.0,1,1,4,No,Rarely,Sales,Married,Master,Senior,No
+20420,58,12591.0,12.0,8,1.0,1,1,4,No,Rarely,Technology,Divorced,Bachelor,Mid,No
+20421,36,5218.0,19.0,3,2.0,1,2,3,No,Rarely,HR,Married,Bachelor,Entry,No
+20422,35,17044.0,19.0,9,4.0,3,2,3,No,Frequently,Sales,Single,Bachelor,Mid,No
+20423,41,2859.0,19.0,4,1.0,2,3,4,No,Rarely,Technology,Single,Doctorate,Mid,No
+20424,31,14736.0,20.0,4,3.0,4,3,3,No,Frequently,Finance,Married,High School,Entry,No
+20425,48,13430.0,1.0,1,3.0,4,4,3,No,Frequently,Sales,Married,Bachelor,Senior,No
+20426,60,4902.0,5.0,4,3.0,2,1,4,No,Rarely,Technology,Married,Bachelor,Entry,No
+20427,56,4839.0,11.0,2,4.0,3,2,3,Yes,Rarely,Sales,Married,Bachelor,Mid,No
+20428,40,9722.0,11.0,9,2.0,3,4,3,Yes,Rarely,Technology,Married,Bachelor,Mid,No
+20429,51,7512.0,,3,4.0,4,4,3,No,Rarely,Technology,Divorced,Bachelor,Mid,No
+20430,30,3357.0,1.0,1,3.0,4,1,3,No,Rarely,Sales,Married,Bachelor,Mid,No
+20431,37,17493.0,16.0,5,2.0,3,4,4,No,Frequently,Finance,Married,High School,Manager,No
+20432,32,8461.0,16.0,0,3.0,4,4,3,Yes,Rarely,Sales,Single,High School,Mid,No
+20433,58,3199.0,5.0,0,4.0,2,4,4,No,Non-Travel,HR,Married,Bachelor,Senior,Yes
+20434,42,15870.0,3.0,3,2.0,3,4,4,No,Rarely,Technology,Married,High School,Entry,No
+20435,45,12908.0,1.0,1,4.0,4,1,3,No,Rarely,Sales,Single,Master,Mid,No
+20436,23,15221.0,6.0,6,4.0,1,3,4,No,Rarely,HR,Divorced,Bachelor,Entry,No
+20437,60,9124.0,3.0,3,1.0,3,1,3,No,Non-Travel,Sales,Divorced,Master,Manager,Yes
+20438,44,9220.0,12.0,1,1.0,1,3,4,No,Rarely,Technology,Single,Doctorate,Mid,No
+20439,57,9538.0,8.0,7,1.0,4,1,4,No,Non-Travel,HR,Married,High School,Mid,No
+20440,57,11014.0,16.0,5,3.0,3,1,4,No,Rarely,Sales,Single,Bachelor,Mid,No
+20441,31,14122.0,18.0,9,1.0,3,3,3,No,Frequently,Finance,Divorced,Master,Entry,No
+20442,53,15744.0,19.0,1,4.0,1,4,3,No,Non-Travel,Sales,Married,Bachelor,Entry,Yes
+20443,35,14243.0,9.0,7,4.0,1,3,4,No,Rarely,Finance,Divorced,High School,Entry,No
+20444,21,7498.0,18.0,4,3.0,1,1,4,No,Non-Travel,HR,Divorced,Bachelor,Entry,Yes
+20445,35,2954.0,9.0,1,2.0,4,3,3,No,Rarely,Finance,Single,Bachelor,Mid,No
+20446,42,14004.0,3.0,0,1.0,3,4,3,Yes,Rarely,Finance,Married,High School,Entry,No
+20447,52,13328.0,11.0,9,2.0,4,1,3,No,Rarely,Finance,Single,Master,Entry,No
+20448,55,,9.0,9,2.0,3,3,3,No,Rarely,Finance,Single,Bachelor,Mid,No
+20449,22,16114.0,5.0,1,2.0,1,1,3,No,Non-Travel,Finance,Married,High School,Mid,No
+20450,49,15952.0,13.0,2,4.0,2,3,3,No,Non-Travel,Technology,Married,Bachelor,Mid,No
+20451,59,15884.0,5.0,5,4.0,1,2,4,No,Frequently,Technology,Single,Master,Mid,No
+20452,40,13934.0,15.0,9,4.0,3,2,4,No,Frequently,HR,Married,Bachelor,Mid,No
+20453,48,11032.0,14.0,6,2.0,2,1,3,No,Rarely,HR,Single,Master,Entry,Yes
+20454,46,8423.0,20.0,1,1.0,2,3,3,Yes,Non-Travel,Technology,Single,Bachelor,Mid,No
+20455,57,5822.0,14.0,4,1.0,1,2,4,No,Rarely,HR,Married,Bachelor,Mid,No
+20456,46,7586.0,6.0,1,2.0,2,3,3,No,Frequently,Sales,Single,Master,Entry,No
+20457,56,14095.0,13.0,5,4.0,3,3,4,Yes,Rarely,Finance,Married,Doctorate,Entry,No
+20458,44,4650.0,15.0,2,2.0,2,4,3,No,Rarely,Technology,Married,Bachelor,Mid,No
+20459,46,13021.0,18.0,1,3.0,2,2,3,No,Rarely,HR,Divorced,Bachelor,Mid,No
+20460,57,10886.0,13.0,7,4.0,3,1,3,No,Frequently,Technology,Married,High School,Senior,No
+20461,29,1889.0,20.0,1,4.0,2,2,3,Yes,Rarely,HR,Married,Bachelor,Senior,No
+20462,23,9176.0,15.0,5,1.0,1,4,4,No,Non-Travel,Sales,Single,Master,Senior,No
+20463,39,8129.0,1.0,0,1.0,3,1,3,No,Rarely,Technology,Divorced,Master,Senior,No
+20464,37,6030.0,1.0,1,3.0,3,3,3,Yes,Frequently,Sales,Single,Master,Entry,Yes
+20465,55,3604.0,12.0,7,4.0,3,3,3,Yes,Rarely,Technology,Married,Bachelor,Entry,No
+20466,36,16509.0,18.0,5,4.0,2,1,3,No,Non-Travel,Sales,Married,Master,Mid,No
+20467,26,5268.0,0.0,0,4.0,4,3,4,Yes,Non-Travel,Technology,Married,Master,Entry,Yes
+20468,22,17948.0,6.0,6,4.0,3,4,4,No,Frequently,Technology,Single,Bachelor,Senior,No
+20469,24,9780.0,11.0,2,2.0,1,4,3,Yes,Rarely,HR,Married,Bachelor,Mid,No
+20470,40,14646.0,7.0,2,4.0,4,2,3,Yes,Frequently,Technology,Single,Master,Mid,Yes
+20471,57,9324.0,10.0,5,1.0,3,2,3,No,Non-Travel,Sales,Single,Bachelor,Entry,Yes
+20472,25,7534.0,14.0,3,4.0,3,2,3,Yes,Frequently,Sales,Married,Bachelor,Entry,No
+20473,40,17409.0,2.0,2,2.0,2,1,3,No,Frequently,HR,Married,Master,Mid,No
+20474,52,16970.0,4.0,4,1.0,1,1,3,No,Rarely,Sales,Married,Bachelor,Entry,No
+20475,56,6841.0,1.0,1,4.0,4,2,3,No,Rarely,Sales,Single,High School,Senior,No
+20476,38,2547.0,5.0,4,4.0,1,3,3,No,Frequently,Sales,Married,Master,Mid,No
+20477,56,,2.0,2,3.0,1,2,3,Yes,Rarely,HR,Single,High School,Mid,Yes
+20478,33,4528.0,9.0,9,3.0,3,4,4,No,Frequently,Technology,Married,Bachelor,Mid,No
+20479,43,15663.0,17.0,6,,4,1,4,No,Rarely,HR,Married,Bachelor,Mid,No
+20480,27,4215.0,6.0,3,3.0,3,2,4,No,Non-Travel,HR,Married,Bachelor,Senior,No
+20481,31,11149.0,20.0,9,1.0,1,1,3,No,Non-Travel,Finance,Divorced,High School,Manager,No
+20482,58,16640.0,19.0,6,3.0,1,1,4,No,Rarely,Sales,Married,High School,Mid,No
+20483,55,3076.0,17.0,4,1.0,3,1,4,No,Rarely,HR,Single,Bachelor,Senior,No
+20484,59,13763.0,19.0,9,1.0,4,4,3,No,Rarely,Technology,Divorced,High School,Entry,No
+20485,53,7364.0,20.0,0,2.0,2,1,4,No,Rarely,Technology,Single,Bachelor,Mid,No
+20486,29,6721.0,8.0,1,2.0,3,3,3,No,Rarely,Technology,Married,Bachelor,Mid,No
+20487,26,13754.0,8.0,5,3.0,4,2,3,No,Rarely,Finance,Married,Bachelor,Mid,No
+20488,57,8376.0,14.0,3,2.0,3,4,3,No,Rarely,Technology,Married,Master,Manager,No
+20489,52,4125.0,5.0,5,1.0,2,1,4,Yes,Non-Travel,Finance,Married,Bachelor,Senior,Yes
+20490,33,8527.0,18.0,0,2.0,3,4,4,No,Rarely,Technology,Single,Master,Entry,No
+20491,29,14271.0,2.0,2,1.0,4,3,3,No,Rarely,Technology,Married,Master,Mid,No
+20492,31,4372.0,19.0,2,3.0,1,2,4,Yes,Rarely,Sales,Married,Bachelor,Mid,No
+20493,21,5728.0,2.0,2,2.0,3,2,3,No,Non-Travel,Technology,Divorced,Bachelor,Entry,Yes
+20494,45,2315.0,7.0,0,1.0,3,1,3,No,Non-Travel,Technology,Single,Bachelor,Entry,Yes
+20495,27,7998.0,12.0,7,1.0,3,2,4,No,Rarely,HR,Single,Bachelor,Entry,Yes
+20496,43,9760.0,17.0,9,3.0,3,3,3,No,Non-Travel,Sales,Single,Master,Mid,No
+20497,24,3159.0,10.0,5,3.0,1,1,3,No,Frequently,Technology,Divorced,Bachelor,Mid,No
+20498,39,2197.0,6.0,6,4.0,1,3,4,No,Frequently,HR,Single,Bachelor,Mid,Yes
+20499,54,9551.0,9.0,5,1.0,4,3,3,No,Rarely,Technology,Married,Master,Mid,No
+20500,21,8943.0,7.0,7,2.0,3,4,3,Yes,Non-Travel,HR,Divorced,Master,Senior,No
